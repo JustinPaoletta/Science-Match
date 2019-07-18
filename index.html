@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<title>Match Game</title>
+<meta name="description" content="Make Science Matches">
+<meta name="author" content="SitePoint">
+<link rel="stylesheet" href="cards.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="YOUWON">
+
+      <p id="toptext">You Won!</p> 
+      <p>And Probably Learned Some Stuff Too!</p>
+      <p><button onClick="window.location.reload();">Play Again?</button></p>
+
+    </div>
+
+
+    <div id="MATCH">
+
+        <p id="text">Science Match</p> 
+        <p id="content">Where You Can Read And Learn About Each Match You Make </p>
+
+          <img style="height:15vh;" id="gif" src="">
+  
+    </div>
+
+    <div id="PIC">
+
+      <img src="http://pngimg.com/uploads/teacher/teacher_PNG90.png">
+
+    </div>
+
+
+    <div class="grid" id="shuffle">
+   
+        <div class="container" id= "atom1">
+                <div class="card" id="0">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back atom">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "atom2">
+                <div class="card" id="0">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back atom">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "skel1">
+                <div class="card" id="1">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back skeleton">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "skel2">
+                <div class="card" id="1">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back skeleton">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "dino1">
+                <div class="card" id="2">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back dino">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "dino2">
+                <div class="card" id="2">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back dino">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "fire1">
+                <div class="card" id="3">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back fire">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "fire2">
+                <div class="card" id="3">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back fire">
+                    
+                  </div>
+                </div>
+        </div>
+
+
+        <div class="container" id= "planet1">
+                <div class="card" id="4">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back planet">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "planet2">
+                <div class="card" id="4" >
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back planet">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "celery1">
+                <div class="card" id="5">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back celery">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "celery2">
+                <div class="card" id="5">
+                  <div class="front science-card-photo">
+                   
+                  </div>
+                  <div class="back celery">
+                    
+                  </div>
+                </div>
+        </div>
+
+        <div class="container" id= "rocket1">
+            <div class="card" id="6">
+              <div class="front science-card-photo">
+                
+              </div>
+              <div class="back rocket">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "rocket2">
+            <div class="card" id="6">
+              <div class="front science-card-photo">
+                
+              </div>
+              <div class="back rocket">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "phone1">
+            <div class="card" id="7">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back phone">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "phone2">
+            <div class="card" id="7">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back phone">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "volcano1">
+            <div class="card" id="8">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back volcano">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "volcano2">
+            <div class="card" id="8">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back volcano">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "waves1">
+            <div class="card" id="9">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back waves">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "waves2">
+            <div class="card" id="9">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back waves">
+                
+              </div>
+            </div>
+    </div>
+
+
+    <div class="container" id= "computer1">
+            <div class="card" id="10">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back computer">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "computer2">
+            <div class="card" id="10">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back computer">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "vaccine1">
+            <div class="card" id="11">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back vaccine">
+                
+              </div>
+            </div>
+    </div>
+
+    <div class="container" id= "vaccine2">
+            <div class="card" id="11">
+              <div class="front science-card-photo">
+               
+              </div>
+              <div class="back vaccine">
+                
+              </div>
+            </div>
+    </div>
+
+
+
+            
+
+    </div>
+
+
+
+
+<script src="cards.js"></script>  
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+
+</body>
+
+</html>
+

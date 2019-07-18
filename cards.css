@@ -1,0 +1,189 @@
+/* Winning Modal */
+
+#YOUWON{
+  background-color: black;
+  height:80vh;
+  width:50vw;
+  margin-left: 25vw;
+  display:none;
+  position: fixed;
+}
+
+#YOUWON p{
+  color:white;
+  text-align: center;
+}
+
+#toptext{
+  padding-top: 10vh;
+  font-size: 3rem;
+}
+
+/* Atom Modal */
+
+#MATCH{
+  background-color: rgb(255, 255, 255);
+  height:80vh;
+  width:20vw;
+  margin-left: 3vw;
+  display:block;
+  position: fixed;
+  /* border: solid rgb(104, 135, 146) 3px; */
+  text-align: center;
+}
+
+#MATCH p{
+  color:black;
+  text-align: center;
+}
+
+#text{
+  padding: 2rem;
+  margin-top: 6vh;
+  font-size: 2rem;
+}
+
+#content{
+  padding:2rem;
+  margin-top: -5vh;
+}
+
+#PIC{
+  height:80vh;
+  width:20vw;
+  display:block;
+  float: right;
+  margin-right: 2vw;
+}
+
+#PIC img{
+  margin-left: 2vw;
+  margin-top: 45vh;
+}
+
+#PIC p{
+  text-align: center;
+  padding:2.5rem;
+  font-size: 2rem;
+  margin-top: 10vh;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 6.5vh;
+    text-align: center;
+    width:50vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
+  
+  }
+
+  /* flip the pane when clicked */
+  .container .card.flip {
+    transform: rotateY(180deg);
+    margin-left: 1vw;
+
+  }
+  
+  .container, .front, .back {
+    width: 100px;
+    height: 125px;
+  }
+  
+  /* flip speed */
+  .card {
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  
+  /* hide back of pane during swap */
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+  }
+  
+  /* front pane, placed above back */
+  .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+  }
+  
+  /* back, initially hidden pane */
+  .back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+    border: solid black 2px;
+    border-radius: 6%;
+  }
+  
+  
+  .science-card-photo {
+    background: url(https://d1w9csuen3k837.cloudfront.net/Pictures/1120xAny/0/8/1/135081_Index-and-hero---A-picture-is-worth-a-thousand-word.jpg) center center no-repeat;
+    background-size: cover;
+    border: solid 2px green;
+    border-radius: 6%; 
+  }
+
+  .atom{
+    background: url(atom.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .skeleton{
+    background: url(skeleton.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .dino{
+    background: url(dino.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .fire{
+    background: url(fire.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .planet{
+    background: url(planet.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .celery{
+    background: url(celery.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .rocket{
+    background: url(rocket.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .phone{
+    background: url(phone.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .volcano{
+    background: url(volcano.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .waves{
+    background: url(waves.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .computer{
+    background: url(computer.gif) center center no-repeat;
+    background-size: contain; 
+  }
+
+  .vaccine{
+    background: url(vaccine.gif) center center no-repeat;
+    background-size: contain; 
+  }
