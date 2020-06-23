@@ -1,4 +1,4 @@
-# Match-Game
+# Science-Match
  Science Match
 
  The Matching Game where you learn while playing!
